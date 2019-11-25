@@ -1,16 +1,30 @@
-# vibe
+# Vibe Seleção
 
-A new Flutter project.
+Projeto desenvolvido em flutter, qualquer duvida ou problema, entrar em contato: viniciusgaiavalente@gmail.com
 
-## Getting Started
+## Instalando o App
 
-This project is a starting point for a Flutter application.
+Faça o download de um dos apks disponíveis no link abaixo, e [faça a instalação em um celular android](https://www.techtudo.com.br/dicas-e-tutoriais/2018/10/como-instalar-apk-no-android.ghtml):
 
-A few resources to get you started if this is your first Flutter project:
+- [Link para download dos apks para instalação](https://drive.google.com/drive/folders/1cxAbs7rsPAJSmqZB200uJ7f73DhwJytV?usp=sharing)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Clonando o Projeto
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Instale o flutter na sua maquina seguindo o passo a passo de instalação:
+
+- [Instalando flutter no windows](https://flutter.dev/docs/get-started/install/windows)
+- [Outros sistemas operacionais](https://flutter.dev/docs/get-started/install)
+
+Configure um dos editores de sua preferência:
+
+- [Visual Studio Code](https://flutter.dev/docs/get-started/editor?tab=vscode)
+- [Android Studio/Intellij](https://flutter.dev/docs/get-started/editor?tab=androidstudio)
+
+Para compilar o projeto corretamente e preciso concluir do flutter corretamente (inclusive adicionando a variável de ambiente) e seguir os seguintes passos:
+
+- Crie um novo projeto flutter na sua maquina com o nome vibe (flutter create vibe) na pasta de sua escolha;
+- Substitua a pasta lib do seu projeto pela pasta lib desse repositório;
+- Substitua o arquivo pubscpec.yaml do seu projeto pelo arquivo pubscpec.yaml desse repositório;
+- Rode o comando flutter packages get no terminal;
+
+Apos os seguir os passos descritos o projeto estará pronto para ser executado. Basta plugar um celular ou iniciar um emulador e rodar o comando flutter run no terminal.
